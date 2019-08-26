@@ -10,8 +10,19 @@ import Evalscripts as Eval
  - Eval.SensorsEvalPlot(dataset,ref,units,refname,Dates,calname,ave,val)
  - Eval/MulSensorsEvalPlot(datasetdic,ref,refname,Dates,calname,ave,val)
 
-dataset: low-cost sensors data in a dictionary, ref: refrence sensors data,units: name of the group of low cost sensors, refname: name of refrence sensors, ave: time average (i.e "1T", "10T", "60T")
-Dates: date interval of the evalation and calibration performed i.e ["2019-04-01","2019-05-29"] , val: valuse to be evalated (val need to be a column in all sensors including ref). datasetdic: a dictionary for each group of low cost sensors datadiction (i.e a dictionary of dataset) dictionary key names are used as the units.
+dataset: low-cost sensors data in a dictionary
+
+ref: refrence sensors data,units: name of the group of low cost sensors
+
+refname: name of refrence sensors
+
+ave: time average (i.e "1T", "10T", "60T")
+
+Dates: date interval of the evalation and calibration performed i.e ["2019-04-01","2019-05-29"] 
+
+val: valuse to be evalated (val need to be a column in all sensors including ref)
+
+datasetdic: a dictionary for each group of low cost sensors datadiction (i.e a dictionary of dataset) dictionary key names are used as the units.
 
 
 ### SensorsEvalPlot Example plot
